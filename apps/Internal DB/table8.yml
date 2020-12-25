@@ -1,0 +1,199 @@
+id: table8
+type: widget
+subtype: TableWidget
+template:
+  ordered:
+    - showCustomButton: false
+    - sortMappedValue:
+        ordered: []
+    - normalizedData: null
+    - saveChangesDisabled: ''
+    - columnWidths: []
+    - columnWidthsMobile: []
+    - hasNextAfterCursor: ''
+    - columnTypeSpecificExtras:
+        ordered: []
+    - onRowAdded: ''
+    - columnHeaderNames:
+        ordered: []
+    - alwaysShowPaginator: false
+    - columnColors:
+        ordered:
+          - width: ''
+          - userId: ''
+          - height: ''
+          - pageSaveId: ''
+          - folderId: ''
+          - pageId: ''
+          - name: ''
+          - deletedAt: ''
+          - organizationId: ''
+          - updatedAt: ''
+          - protected: ''
+          - state: ''
+          - isGlobalWidget: ''
+          - status: ''
+          - parentFolderId: ''
+          - accessToken: ''
+          - lastEditedBy: ''
+          - appVersion: ''
+          - releasedTagId: ''
+          - synced: ''
+          - id: ''
+          - createdAt: ''
+          - password: ''
+          - uuid: ''
+          - photoUrl: ''
+          - expirationDate: ''
+          - systemFolder: ''
+          - key: ''
+    - allowMultiRowSelect: false
+    - columnFormats:
+        ordered: []
+    - columnRestrictedEditing:
+        ordered: []
+    - showFilterButton: true
+    - nextBeforeCursor: ''
+    - columnVisibility:
+        ordered:
+          - width: true
+          - userId: true
+          - height: true
+          - pageSaveId: true
+          - folderId: true
+          - pageId: true
+          - name: true
+          - Sales: true
+          - deletedAt: true
+          - organizationId: true
+          - updatedAt: true
+          - protected: true
+          - state: true
+          - isGlobalWidget: true
+          - status: true
+          - parentFolderId: true
+          - accessToken: true
+          - lastEditedBy: true
+          - appVersion: true
+          - Title: true
+          - releasedTagId: true
+          - synced: true
+          - id: true
+          - createdAt: true
+          - password: true
+          - uuid: true
+          - Description: true
+          - photoUrl: true
+          - expirationDate: true
+          - systemFolder: true
+          - key: true
+    - selectedPageIndex: '0'
+    - actionButtonColumnName: Actions
+    - filterStackType: and
+    - downloadRawData: false
+    - showFetchingIndicator: true
+    - serverPaginated: false
+    - data: '{{ folders.data }}'
+    - displayedData: null
+    - actionButtons: []
+    - actionButtonSelectsRow: true
+    - selectRowByDefault: true
+    - defaultSortByColumn: ''
+    - paginationOffset: 0
+    - columnAlignment:
+        ordered: []
+    - sortedDesc: false
+    - customButtonName: ''
+    - columnMappersRenderAsHTML:
+        ordered: []
+    - pageSize: 5
+    - useDynamicColumnSettings: false
+    - actionButtonPosition: left
+    - bulkUpdateAction: ''
+    - afterCursor: ''
+    - onCustomButtonPressQueryName: ''
+    - changeSet:
+        object: {}
+    - sortedColumn: ''
+    - columnAllowOverflow:
+        ordered: []
+    - beforeCursor: ''
+    - serverPaginationType: limitOffsetBased
+    - onRowSelect: ''
+    - showDownloadButton: true
+    - selectedIndex: ''
+    - defaultSortDescending: false
+    - dynamicColumnSettings: null
+    - totalRowCount: ''
+    - recordUpdates:
+        array: []
+    - newRow: null
+    - columnEditable:
+        ordered: []
+    - id: table8
+    - filters:
+        array: []
+    - displayedDataIndices: null
+    - disableSorting:
+        ordered: []
+    - columnMappers:
+        ordered: []
+    - showClearSelection: false
+    - selectedCell:
+        object:
+          index: null
+          data: null
+          columnName: null
+    - columns:
+        - Title
+        - Description
+        - Sales
+        - id
+        - userId
+        - accessToken
+        - expirationDate
+        - createdAt
+        - updatedAt
+        - status
+        - state
+        - name
+        - organizationId
+        - folderId
+        - uuid
+        - releasedTagId
+        - photoUrl
+        - deletedAt
+        - lastEditedBy
+        - isGlobalWidget
+        - protected
+        - synced
+        - pageId
+        - pageSaveId
+        - appVersion
+        - height
+        - width
+        - password
+        - key
+        - systemFolder
+        - parentFolderId
+    - sort: null
+    - calculatedColumns: []
+    - selectedRow:
+        object:
+          index: null
+          data: null
+    - showPaginationOnTop: false
+    - nextAfterCursor: ''
+    - useCompactMode: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedcontainer1
+    row: 1
+    col: 6
+    height: 8
+    width: 6
+    tabNum: 1
+createdAt: 2020-12-25T01:21:17.439Z
+updatedAt: 2020-12-25T01:27:46.825Z

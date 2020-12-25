@@ -1,0 +1,194 @@
+id: table3
+type: widget
+subtype: TableWidget
+template:
+  ordered:
+    - showCustomButton: false
+    - sortMappedValue:
+        ordered: []
+    - normalizedData: null
+    - saveChangesDisabled: ''
+    - columnWidths:
+        - object:
+            id: userAgent
+            value: 102
+    - columnWidthsMobile: []
+    - hasNextAfterCursor: ''
+    - columnTypeSpecificExtras:
+        ordered: []
+    - onRowAdded: ''
+    - columnHeaderNames:
+        ordered: []
+    - alwaysShowPaginator: false
+    - columnColors:
+        ordered:
+          - port: ''
+          - geoLocation: ''
+          - userId: ''
+          - databaseName: ''
+          - editPrivilege: ''
+          - host: ''
+          - dynamicallyQueryable: ''
+          - name: ''
+          - ssl: ''
+          - ipAddress: ''
+          - organizationId: ''
+          - updatedAt: ''
+          - metadata: ''
+          - actionType: ''
+          - databaseUsername: ''
+          - environment: ''
+          - queryName: ''
+          - responseTimeMs: ''
+          - databasePassword: ''
+          - resourceName: ''
+          - pageName: ''
+          - userAgent: ''
+          - type: ''
+          - id: ''
+          - createdAt: ''
+          - options: ''
+    - allowMultiRowSelect: false
+    - columnFormats:
+        ordered: []
+    - columnRestrictedEditing:
+        ordered: []
+    - showFilterButton: true
+    - nextBeforeCursor: ''
+    - columnVisibility:
+        ordered:
+          - port: true
+          - geoLocation: true
+          - userId: true
+          - databaseName: true
+          - editPrivilege: true
+          - host: true
+          - dynamicallyQueryable: true
+          - name: true
+          - Sales: true
+          - ssl: true
+          - ipAddress: true
+          - organizationId: true
+          - updatedAt: true
+          - metadata: true
+          - actionType: true
+          - databaseUsername: true
+          - environment: true
+          - queryName: true
+          - responseTimeMs: true
+          - databasePassword: true
+          - Title: true
+          - resourceName: true
+          - pageName: true
+          - userAgent: true
+          - type: true
+          - id: true
+          - createdAt: true
+          - Description: true
+          - options: true
+    - selectedPageIndex: '0'
+    - actionButtonColumnName: Actions
+    - filterStackType: and
+    - downloadRawData: false
+    - showFetchingIndicator: true
+    - serverPaginated: false
+    - data: '{{ auditLogs.data }}'
+    - displayedData: null
+    - actionButtons: []
+    - actionButtonSelectsRow: true
+    - selectRowByDefault: true
+    - defaultSortByColumn: ''
+    - paginationOffset: 0
+    - columnAlignment:
+        ordered: []
+    - sortedDesc: false
+    - customButtonName: ''
+    - columnMappersRenderAsHTML:
+        ordered: []
+    - pageSize: 6
+    - useDynamicColumnSettings: false
+    - actionButtonPosition: left
+    - bulkUpdateAction: ''
+    - afterCursor: ''
+    - onCustomButtonPressQueryName: ''
+    - changeSet:
+        object: {}
+    - sortedColumn: ''
+    - columnAllowOverflow:
+        ordered: []
+    - beforeCursor: ''
+    - serverPaginationType: limitOffsetBased
+    - onRowSelect: ''
+    - showDownloadButton: true
+    - selectedIndex: ''
+    - defaultSortDescending: false
+    - dynamicColumnSettings: null
+    - totalRowCount: ''
+    - recordUpdates:
+        array: []
+    - newRow: null
+    - columnEditable:
+        ordered: []
+    - id: table3
+    - filters:
+        array: []
+    - displayedDataIndices: null
+    - disableSorting:
+        ordered: []
+    - columnMappers:
+        ordered: []
+    - showClearSelection: false
+    - selectedCell:
+        object:
+          index: null
+          data: null
+          columnName: null
+    - columns:
+        - Title
+        - Description
+        - Sales
+        - id
+        - name
+        - type
+        - host
+        - port
+        - databaseName
+        - databaseUsername
+        - databasePassword
+        - createdAt
+        - updatedAt
+        - organizationId
+        - ssl
+        - editPrivilege
+        - options
+        - environment
+        - dynamicallyQueryable
+        - userId
+        - userAgent
+        - ipAddress
+        - geoLocation
+        - responseTimeMs
+        - actionType
+        - pageName
+        - queryName
+        - resourceName
+        - metadata
+    - sort: null
+    - calculatedColumns: []
+    - selectedRow:
+        object:
+          index: null
+          data: null
+    - showPaginationOnTop: false
+    - nextAfterCursor: ''
+    - useCompactMode: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedcontainer1
+    row: 1
+    height: 9
+    width: 6
+createdAt: 2020-12-25T01:10:37.166Z
+updatedAt: 2020-12-25T01:15:47.617Z
