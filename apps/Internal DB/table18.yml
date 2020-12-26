@@ -1,4 +1,4 @@
-id: table6
+id: table18
 type: widget
 subtype: TableWidget
 template:
@@ -19,24 +19,17 @@ template:
     - alwaysShowPaginator: false
     - columnColors:
         ordered:
-          - port: ''
-          - databaseName: ''
-          - editPrivilege: ''
-          - host: ''
-          - dynamicallyQueryable: ''
+          - pageSaveId: ''
+          - pageId: ''
           - name: ''
-          - sales: ''
-          - ssl: ''
+          - deletedAt: ''
           - organizationId: ''
           - updatedAt: ''
-          - databaseUsername: ''
-          - environment: ''
-          - databasePassword: ''
-          - type: ''
+          - ownerId: ''
           - id: ''
           - createdAt: ''
-          - email: ''
-          - options: ''
+          - uuid: ''
+          - key: ''
     - allowMultiRowSelect: false
     - columnFormats:
         ordered: []
@@ -46,34 +39,27 @@ template:
     - nextBeforeCursor: ''
     - columnVisibility:
         ordered:
-          - port: true
-          - databaseName: true
-          - editPrivilege: true
-          - host: true
-          - dynamicallyQueryable: true
+          - pageSaveId: true
+          - pageId: true
           - name: true
           - Sales: true
-          - sales: true
-          - ssl: true
+          - deletedAt: true
           - organizationId: true
           - updatedAt: true
-          - databaseUsername: true
-          - environment: true
-          - databasePassword: true
+          - ownerId: true
           - Title: true
-          - type: true
           - id: true
           - createdAt: true
-          - email: true
+          - uuid: true
           - Description: true
-          - options: true
+          - key: true
     - selectedPageIndex: '0'
     - actionButtonColumnName: Actions
     - filterStackType: and
     - downloadRawData: false
     - showFetchingIndicator: true
     - serverPaginated: false
-    - data: '{{resources.data}}'
+    - data: '{{ commits.data }}'
     - displayedData: null
     - actionButtons: []
     - actionButtonSelectsRow: true
@@ -106,15 +92,13 @@ template:
     - dynamicColumnSettings: null
     - totalRowCount: ''
     - recordUpdates:
-        ordered:
-          - array: []
+        array: []
     - newRow: null
     - columnEditable:
         ordered: []
-    - id: table6
+    - id: table18
     - filters:
-        ordered:
-          - array: []
+        array: []
     - displayedDataIndices: null
     - disableSorting:
         ordered: []
@@ -130,24 +114,17 @@ template:
         - Title
         - Description
         - Sales
-        - id
-        - name
-        - email
-        - sales
-        - type
-        - host
-        - port
-        - databaseName
-        - databaseUsername
-        - databasePassword
+        - uuid
+        - key
+        - organizationId
         - createdAt
         - updatedAt
-        - organizationId
-        - ssl
-        - editPrivilege
-        - options
-        - environment
-        - dynamicallyQueryable
+        - id
+        - name
+        - pageId
+        - pageSaveId
+        - ownerId
+        - deletedAt
     - sort: null
     - calculatedColumns: []
     - selectedRow:
@@ -162,9 +139,10 @@ style:
 position2:
   position2:
     container: tabbedcontainer1
-    row: 11
+    row: 1
     col: 6
     height: 8
     width: 6
-createdAt: 2020-12-25T01:14:48.083Z
-updatedAt: 2020-12-25T01:16:58.430Z
+    tabNum: 3
+createdAt: 2020-12-26T22:26:27.755Z
+updatedAt: 2020-12-26T22:29:06.619Z
