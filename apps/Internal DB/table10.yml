@@ -1,0 +1,234 @@
+id: table10
+type: widget
+subtype: TableWidget
+template:
+  ordered:
+    - showCustomButton: false
+    - sortMappedValue:
+        ordered: []
+    - normalizedData: null
+    - saveChangesDisabled: ''
+    - columnWidths: []
+    - columnWidthsMobile: []
+    - hasNextAfterCursor: ''
+    - columnTypeSpecificExtras:
+        ordered: []
+    - onRowAdded: ''
+    - columnHeaderNames:
+        ordered: []
+    - alwaysShowPaginator: false
+    - columnColors:
+        ordered:
+          - billingCardholderName: ''
+          - twoFactorAuthRequired: ''
+          - protectedGitHubRepo: ''
+          - cacheQueriesPerUser: ''
+          - defaultAppThemeId: ''
+          - themeId: ''
+          - domain: ''
+          - planId: ''
+          - subdomain: ''
+          - billingCardholderEmail: ''
+          - stripeSubscriptionId: ''
+          - protectedGitBranch: ''
+          - stripeCustomerId: ''
+          - billingCardLastFour: ''
+          - billingCardExpirationDate: ''
+          - companyName: ''
+          - contactNumber: ''
+          - onboardingChecklist: ''
+          - name: ''
+          - javaScriptLinks: ''
+          - jitEnabled: ''
+          - sid: ''
+          - updatedAt: ''
+          - platformLevelAuthSteps: ''
+          - applyPreloadedCSSToHomepage: ''
+          - protectedGitHubOrg: ''
+          - hostname: ''
+          - idpMetadataXML: ''
+          - gitBranch: ''
+          - preloadedJavaScript: ''
+          - trialExpiryDate: ''
+          - isCompanyAccount: ''
+          - preloadedCSS: ''
+          - onboardingStagesCompleted: ''
+          - id: ''
+          - createdAt: ''
+          - protectedGitCommit: ''
+          - licenseVerification: ''
+          - billingCardBrand: ''
+          - gitUrl: ''
+    - allowMultiRowSelect: false
+    - columnFormats:
+        ordered: []
+    - columnRestrictedEditing:
+        ordered: []
+    - showFilterButton: true
+    - nextBeforeCursor: ''
+    - columnVisibility:
+        ordered:
+          - billingCardholderName: true
+          - twoFactorAuthRequired: true
+          - protectedGitHubRepo: true
+          - cacheQueriesPerUser: true
+          - defaultAppThemeId: true
+          - themeId: true
+          - domain: true
+          - planId: true
+          - subdomain: true
+          - billingCardholderEmail: true
+          - stripeSubscriptionId: true
+          - protectedGitBranch: true
+          - stripeCustomerId: true
+          - billingCardLastFour: true
+          - billingCardExpirationDate: true
+          - companyName: true
+          - contactNumber: true
+          - onboardingChecklist: true
+          - name: true
+          - Sales: true
+          - javaScriptLinks: true
+          - jitEnabled: true
+          - sid: true
+          - updatedAt: true
+          - platformLevelAuthSteps: true
+          - applyPreloadedCSSToHomepage: true
+          - protectedGitHubOrg: true
+          - hostname: true
+          - idpMetadataXML: true
+          - gitBranch: true
+          - preloadedJavaScript: true
+          - trialExpiryDate: true
+          - Title: true
+          - isCompanyAccount: true
+          - preloadedCSS: true
+          - onboardingStagesCompleted: true
+          - id: true
+          - createdAt: true
+          - protectedGitCommit: true
+          - licenseVerification: true
+          - billingCardBrand: true
+          - Description: true
+          - gitUrl: true
+    - selectedPageIndex: '0'
+    - actionButtonColumnName: Actions
+    - filterStackType: and
+    - downloadRawData: false
+    - showFetchingIndicator: true
+    - serverPaginated: false
+    - data: '{{ organizations.data }}'
+    - displayedData: null
+    - actionButtons: []
+    - actionButtonSelectsRow: true
+    - selectRowByDefault: true
+    - defaultSortByColumn: ''
+    - paginationOffset: 0
+    - columnAlignment:
+        ordered: []
+    - sortedDesc: false
+    - customButtonName: ''
+    - columnMappersRenderAsHTML:
+        ordered: []
+    - pageSize: 5
+    - useDynamicColumnSettings: false
+    - actionButtonPosition: left
+    - bulkUpdateAction: ''
+    - afterCursor: ''
+    - onCustomButtonPressQueryName: ''
+    - changeSet:
+        object: {}
+    - sortedColumn: ''
+    - columnAllowOverflow:
+        ordered: []
+    - beforeCursor: ''
+    - serverPaginationType: limitOffsetBased
+    - onRowSelect: ''
+    - showDownloadButton: true
+    - selectedIndex: ''
+    - defaultSortDescending: false
+    - dynamicColumnSettings: null
+    - totalRowCount: ''
+    - recordUpdates:
+        array: []
+    - newRow: null
+    - columnEditable:
+        ordered: []
+    - id: table10
+    - filters:
+        array: []
+    - displayedDataIndices: null
+    - disableSorting:
+        ordered: []
+    - columnMappers:
+        ordered: []
+    - showClearSelection: false
+    - selectedCell:
+        object:
+          index: null
+          data: null
+          columnName: null
+    - columns:
+        - Title
+        - Description
+        - Sales
+        - id
+        - domain
+        - name
+        - hostname
+        - createdAt
+        - updatedAt
+        - subdomain
+        - trialExpiryDate
+        - preloadedJavaScript
+        - javaScriptLinks
+        - gitUrl
+        - planId
+        - stripeCustomerId
+        - billingCardholderName
+        - billingCardLastFour
+        - billingCardExpirationDate
+        - stripeSubscriptionId
+        - billingCardBrand
+        - billingCardholderEmail
+        - preloadedCSS
+        - sid
+        - isCompanyAccount
+        - companyName
+        - contactNumber
+        - gitBranch
+        - twoFactorAuthRequired
+        - applyPreloadedCSSToHomepage
+        - onboardingChecklist
+        - idpMetadataXML
+        - jitEnabled
+        - onboardingStagesCompleted
+        - themeId
+        - licenseVerification
+        - platformLevelAuthSteps
+        - defaultAppThemeId
+        - protectedGitHubOrg
+        - protectedGitHubRepo
+        - protectedGitBranch
+        - protectedGitCommit
+        - cacheQueriesPerUser
+    - sort: null
+    - calculatedColumns: []
+    - selectedRow:
+        object:
+          index: null
+          data: null
+    - showPaginationOnTop: false
+    - nextAfterCursor: ''
+    - useCompactMode: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedcontainer1
+    row: 20
+    col: 6
+    height: 8
+    width: 6
+createdAt: 2020-12-25T01:31:18.001Z
+updatedAt: 2020-12-25T01:31:18.449Z

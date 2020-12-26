@@ -1,0 +1,28 @@
+id: text11
+type: widget
+subtype: TextWidget
+template:
+  ordered:
+    - horizontalAlign: left
+    - truncateOverflow: false
+    - verticalAlign: center
+    - scrollOverflow: false
+    - tooltipText: ''
+    - value: |+
+        ### Groups
+
+    - renderAsHtml: false
+    - backgroundColor: '#0000'
+    - textColor: '#312929'
+    - renderAsMarkdown: true
+    - id: text11
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedcontainer1
+    row: 19
+    height: 1
+    width: 3
+createdAt: 2020-12-25T01:37:45.605Z
+updatedAt: 2020-12-25T01:37:50.465Z

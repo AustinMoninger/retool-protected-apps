@@ -1,0 +1,29 @@
+id: text12
+type: widget
+subtype: TextWidget
+template:
+  ordered:
+    - horizontalAlign: left
+    - truncateOverflow: false
+    - verticalAlign: center
+    - scrollOverflow: false
+    - tooltipText: ''
+    - value: |+
+        ### Page Saves
+
+    - renderAsHtml: false
+    - backgroundColor: '#0000'
+    - textColor: '#312929'
+    - renderAsMarkdown: true
+    - id: text12
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedcontainer1
+    row: 9
+    height: 1
+    width: 3
+    tabNum: 1
+createdAt: 2020-12-25T02:30:37.415Z
+updatedAt: 2020-12-25T02:30:49.917Z

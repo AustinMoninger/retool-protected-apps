@@ -1,0 +1,28 @@
+id: text13
+type: widget
+subtype: TextWidget
+template:
+  ordered:
+    - horizontalAlign: left
+    - truncateOverflow: false
+    - verticalAlign: center
+    - scrollOverflow: false
+    - tooltipText: ''
+    - value: |+
+        ### SSH Keys
+
+    - renderAsHtml: false
+    - backgroundColor: '#0000'
+    - textColor: '#312929'
+    - renderAsMarkdown: true
+    - id: text13
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedcontainer1
+    height: 1
+    width: 3
+    tabNum: 4
+createdAt: 2020-12-25T02:31:54.676Z
+updatedAt: 2020-12-25T02:32:03.930Z

@@ -1,0 +1,28 @@
+id: text6
+type: widget
+subtype: TextWidget
+template:
+  ordered:
+    - horizontalAlign: left
+    - truncateOverflow: false
+    - verticalAlign: center
+    - scrollOverflow: false
+    - tooltipText: ''
+    - value: |+
+        ### Users
+
+    - renderAsHtml: false
+    - backgroundColor: '#0000'
+    - textColor: '#312929'
+    - renderAsMarkdown: true
+    - id: text6
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedcontainer1
+    row: 10
+    height: 1
+    width: 3
+createdAt: 2020-12-25T01:15:11.194Z
+updatedAt: 2020-12-25T01:15:16.872Z
