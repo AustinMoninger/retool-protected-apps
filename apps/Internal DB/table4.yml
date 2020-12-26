@@ -112,13 +112,15 @@ template:
     - dynamicColumnSettings: null
     - totalRowCount: ''
     - recordUpdates:
-        array: []
+        ordered:
+          - array: []
     - newRow: null
     - columnEditable:
         ordered: []
     - id: table4
     - filters:
-        array: []
+        ordered:
+          - array: []
     - displayedDataIndices: null
     - disableSorting:
         ordered: []

@@ -1,0 +1,28 @@
+id: text16
+type: widget
+subtype: TextWidget
+template:
+  ordered:
+    - horizontalAlign: left
+    - truncateOverflow: false
+    - verticalAlign: center
+    - scrollOverflow: false
+    - tooltipText: ''
+    - value: |+
+        ### Branches
+
+    - renderAsHtml: false
+    - backgroundColor: '#0000'
+    - textColor: '#312929'
+    - renderAsMarkdown: true
+    - id: text16
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedcontainer1
+    height: 1
+    width: 3
+    tabNum: 3
+createdAt: 2020-12-26T22:27:25.431Z
+updatedAt: 2020-12-26T22:27:30.223Z

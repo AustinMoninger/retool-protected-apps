@@ -1,0 +1,29 @@
+id: text17
+type: widget
+subtype: TextWidget
+template:
+  ordered:
+    - horizontalAlign: left
+    - truncateOverflow: false
+    - verticalAlign: center
+    - scrollOverflow: false
+    - tooltipText: ''
+    - value: |+
+        ### Commits
+
+    - renderAsHtml: false
+    - backgroundColor: '#0000'
+    - textColor: '#312929'
+    - renderAsMarkdown: true
+    - id: text17
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedcontainer1
+    col: 6
+    height: 1
+    width: 3
+    tabNum: 3
+createdAt: 2020-12-26T22:28:53.252Z
+updatedAt: 2020-12-26T22:28:57.446Z
