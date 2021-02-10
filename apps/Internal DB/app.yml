@@ -9,7 +9,7 @@ appTemplate:
   isFetching: false
   instrumentationEnabled: false
   customDocumentTitleEnabled: false
-  version: 2.64.71
+  version: 2.66.0
   responsiveLayoutDisabled: false
   createdAt: null
   loadingIndicatorsDisabled: false

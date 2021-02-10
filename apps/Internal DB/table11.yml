@@ -71,6 +71,7 @@ template:
     - customButtonName: ''
     - columnMappersRenderAsHTML:
         ordered: []
+    - showRefreshButton: true
     - pageSize: 5
     - useDynamicColumnSettings: false
     - actionButtonPosition: left

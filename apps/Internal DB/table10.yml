@@ -40,6 +40,7 @@ template:
           - name: ''
           - javaScriptLinks: ''
           - jitEnabled: ''
+          - protectedGitHubBaseUrl: ''
           - sid: ''
           - updatedAt: ''
           - platformLevelAuthSteps: ''
@@ -59,6 +60,7 @@ template:
           - licenseVerification: ''
           - billingCardBrand: ''
           - gitUrl: ''
+          - protectedGitHubEnterpriseUrl: ''
     - allowMultiRowSelect: false
     - columnFormats:
         ordered: []
@@ -90,6 +92,7 @@ template:
           - Sales: true
           - javaScriptLinks: true
           - jitEnabled: true
+          - protectedGitHubBaseUrl: true
           - sid: true
           - updatedAt: true
           - platformLevelAuthSteps: true
@@ -111,6 +114,7 @@ template:
           - billingCardBrand: true
           - Description: true
           - gitUrl: true
+          - protectedGitHubEnterpriseUrl: true
     - selectedPageIndex: '0'
     - actionButtonColumnName: Actions
     - filterStackType: and
@@ -130,6 +134,7 @@ template:
     - customButtonName: ''
     - columnMappersRenderAsHTML:
         ordered: []
+    - showRefreshButton: true
     - pageSize: 5
     - useDynamicColumnSettings: false
     - actionButtonPosition: left
@@ -214,6 +219,8 @@ template:
         - protectedGitBranch
         - protectedGitCommit
         - cacheQueriesPerUser
+        - protectedGitHubBaseUrl
+        - protectedGitHubEnterpriseUrl
     - sort: null
     - calculatedColumns: []
     - selectedRow:
@@ -233,4 +240,4 @@ position2:
     height: 8
     width: 6
 createdAt: 2020-12-25T01:31:18.001Z
-updatedAt: 2020-12-25T01:31:18.449Z
+updatedAt: 2021-02-10T16:27:51.709Z

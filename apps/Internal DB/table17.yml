@@ -72,6 +72,7 @@ template:
     - customButtonName: ''
     - columnMappersRenderAsHTML:
         ordered: []
+    - showRefreshButton: true
     - pageSize: 5
     - useDynamicColumnSettings: false
     - actionButtonPosition: left
@@ -92,13 +93,15 @@ template:
     - dynamicColumnSettings: null
     - totalRowCount: ''
     - recordUpdates:
-        array: []
+        ordered:
+          - array: []
     - newRow: null
     - columnEditable:
         ordered: []
     - id: table17
     - filters:
-        array: []
+        ordered:
+          - array: []
     - displayedDataIndices: null
     - disableSorting:
         ordered: []
