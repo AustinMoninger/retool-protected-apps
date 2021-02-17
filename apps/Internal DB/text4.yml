@@ -9,7 +9,7 @@ template:
     - scrollOverflow: false
     - tooltipText: ''
     - value: |+
-        ### Sessions (+change)
+        ### Sessions
 
     - renderAsHtml: false
     - backgroundColor: '#0000'
@@ -25,4 +25,4 @@ position2:
     height: 1
     width: 3
 createdAt: 2020-12-25T01:11:10.552Z
-updatedAt: 2021-02-10T16:27:56.818Z
+updatedAt: 2021-02-17T21:55:45.904Z
