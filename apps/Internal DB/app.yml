@@ -6,7 +6,7 @@ appTemplate:
   pageLoadValueOverrides: []
   customDocumentTitle: ''
   isGlobalWidget: false
-  isFetching: false
+  isFetching: true
   instrumentationEnabled: false
   customDocumentTitleEnabled: false
   version: 2.66.0
