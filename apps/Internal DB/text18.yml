@@ -1,0 +1,26 @@
+id: text18
+type: widget
+subtype: TextWidget
+template:
+  ordered:
+    - horizontalAlign: left
+    - truncateOverflow: false
+    - verticalAlign: center
+    - scrollOverflow: false
+    - tooltipText: ''
+    - value: |
+        this is a change
+    - renderAsHtml: false
+    - backgroundColor: '#0000'
+    - textColor: '#312929'
+    - renderAsMarkdown: true
+    - id: text18
+style:
+  ordered: []
+position2:
+  position2:
+    col: 8
+    height: 1
+    width: 3
+createdAt: 2021-03-17T23:17:20.329Z
+updatedAt: 2021-03-17T23:17:24.756Z

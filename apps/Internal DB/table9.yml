@@ -28,6 +28,8 @@ template:
           - id: ''
           - createdAt: ''
           - universalResourceAccess: ''
+    - columnFrozenAlignments:
+        ordered: []
     - allowMultiRowSelect: false
     - columnFormats:
         ordered: []

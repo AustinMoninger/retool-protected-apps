@@ -40,6 +40,8 @@ template:
           - createdAt: ''
           - expirationDate: ''
           - options: ''
+    - columnFrozenAlignments:
+        ordered: []
     - allowMultiRowSelect: false
     - columnFormats:
         ordered: []

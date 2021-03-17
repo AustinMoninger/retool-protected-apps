@@ -61,6 +61,8 @@ template:
           - billingCardBrand: ''
           - gitUrl: ''
           - protectedGitHubEnterpriseUrl: ''
+    - columnFrozenAlignments:
+        ordered: []
     - allowMultiRowSelect: false
     - columnFormats:
         ordered: []

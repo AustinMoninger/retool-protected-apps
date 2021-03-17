@@ -38,6 +38,8 @@ template:
           - uuid: ''
           - photoUrl: ''
           - expirationDate: ''
+    - columnFrozenAlignments:
+        ordered: []
     - allowMultiRowSelect: false
     - columnFormats:
         ordered: []

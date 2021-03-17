@@ -27,6 +27,8 @@ template:
           - id: ''
           - name: ''
           - deletedAt: ''
+    - columnFrozenAlignments:
+        ordered: []
     - allowMultiRowSelect: false
     - columnFormats:
         ordered: []

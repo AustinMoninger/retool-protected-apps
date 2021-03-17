@@ -31,6 +31,8 @@ template:
           - id: ''
           - createdAt: ''
           - branchId: ''
+    - columnFrozenAlignments:
+        ordered: []
     - allowMultiRowSelect: false
     - columnFormats:
         ordered: []

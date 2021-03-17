@@ -48,6 +48,8 @@ template:
           - id: ''
           - createdAt: ''
           - options: ''
+    - columnFrozenAlignments:
+        ordered: []
     - allowMultiRowSelect: false
     - columnFormats:
         ordered: []

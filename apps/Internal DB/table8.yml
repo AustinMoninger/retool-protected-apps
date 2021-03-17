@@ -47,6 +47,8 @@ template:
           - expirationDate: ''
           - systemFolder: ''
           - key: ''
+    - columnFrozenAlignments:
+        ordered: []
     - allowMultiRowSelect: false
     - columnFormats:
         ordered: []
