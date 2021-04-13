@@ -38,6 +38,8 @@ template:
           - uuid: ''
           - photoUrl: ''
           - expirationDate: ''
+    - columnFrozenAlignments:
+        ordered: []
     - allowMultiRowSelect: false
     - columnFormats:
         ordered: []
@@ -171,4 +173,3 @@ position2:
     width: 6
     tabNum: 1
 createdAt: 2020-12-25T01:21:12.225Z
-updatedAt: 2020-12-25T01:21:42.259Z

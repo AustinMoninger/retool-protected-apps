@@ -47,6 +47,8 @@ template:
           - expirationDate: ''
           - systemFolder: ''
           - key: ''
+    - columnFrozenAlignments:
+        ordered: []
     - allowMultiRowSelect: false
     - columnFormats:
         ordered: []
@@ -199,4 +201,3 @@ position2:
     width: 6
     tabNum: 1
 createdAt: 2020-12-25T01:21:17.439Z
-updatedAt: 2020-12-25T01:27:46.825Z

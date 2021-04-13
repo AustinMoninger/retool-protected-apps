@@ -2,6 +2,7 @@ id: pageSaves
 type: datasource
 subtype: SqlQueryUnified
 resourceName: '[RDS] Retool Internal DB'
+resourceDisplayName: '[RDS] Retool Internal DB'
 template:
   ordered:
     - queryRefreshTime: ''
@@ -76,4 +77,3 @@ template:
     - queryThrottleTime: '750'
     - notificationDuration: ''
 createdAt: 2020-12-25T01:38:31.576Z
-updatedAt: 2020-12-25T01:39:41.513Z

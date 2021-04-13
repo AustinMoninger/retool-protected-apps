@@ -3,13 +3,16 @@ pageUuid: 494c65ce-4649-11eb-ad07-9b80cb786a35
 appTemplate:
   urlFragmentDefinitions: []
   appThemeId: null
+  preloadedAppJavaScript: null
   pageLoadValueOverrides: []
   customDocumentTitle: ''
   isGlobalWidget: false
   isFetching: true
   instrumentationEnabled: false
   customDocumentTitleEnabled: false
-  version: 2.66.0
+  preloadedAppJSLinks:
+    array: []
+  version: 2.66.76
   responsiveLayoutDisabled: false
   createdAt: null
   loadingIndicatorsDisabled: false

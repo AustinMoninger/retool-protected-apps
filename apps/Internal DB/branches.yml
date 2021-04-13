@@ -2,6 +2,7 @@ id: branches
 type: datasource
 subtype: SqlQueryUnified
 resourceName: '[RDS] Retool Internal DB'
+resourceDisplayName: '[RDS] Retool Internal DB'
 template:
   ordered:
     - queryRefreshTime: ''
@@ -76,4 +77,3 @@ template:
     - queryThrottleTime: '750'
     - notificationDuration: ''
 createdAt: 2020-12-26T22:26:38.370Z
-updatedAt: 2020-12-26T22:27:04.714Z

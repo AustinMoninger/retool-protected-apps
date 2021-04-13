@@ -31,6 +31,8 @@ template:
           - createdAt: ''
           - privateKey: ''
           - email: ''
+    - columnFrozenAlignments:
+        ordered: []
     - allowMultiRowSelect: false
     - columnFormats:
         ordered: []
@@ -144,4 +146,3 @@ position2:
     width: 6
     tabNum: 4
 createdAt: 2020-12-25T02:31:48.704Z
-updatedAt: 2020-12-25T02:34:27.304Z

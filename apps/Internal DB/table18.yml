@@ -30,6 +30,8 @@ template:
           - createdAt: ''
           - uuid: ''
           - key: ''
+    - columnFrozenAlignments:
+        ordered: []
     - allowMultiRowSelect: false
     - columnFormats:
         ordered: []
@@ -148,4 +150,3 @@ position2:
     width: 6
     tabNum: 3
 createdAt: 2020-12-26T22:26:27.755Z
-updatedAt: 2020-12-26T22:29:06.619Z

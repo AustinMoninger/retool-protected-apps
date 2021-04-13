@@ -40,6 +40,8 @@ template:
           - createdAt: ''
           - expirationDate: ''
           - options: ''
+    - columnFrozenAlignments:
+        ordered: []
     - allowMultiRowSelect: false
     - columnFormats:
         ordered: []
@@ -177,4 +179,3 @@ position2:
     height: 9
     width: 6
 createdAt: 2020-12-25T01:10:42.759Z
-updatedAt: 2020-12-25T01:17:47.481Z

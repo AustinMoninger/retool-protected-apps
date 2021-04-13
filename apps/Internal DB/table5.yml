@@ -28,6 +28,7 @@ template:
           - resetPasswordExpires: ''
           - name: ''
           - sales: ''
+          - passwordExpiresAt: ''
           - sid: ''
           - organizationId: ''
           - updatedAt: ''
@@ -43,6 +44,8 @@ template:
           - email: ''
           - lastLoggedIn: ''
           - twoFactorAuthEnabled: ''
+    - columnFrozenAlignments:
+        ordered: []
     - allowMultiRowSelect: false
     - columnFormats:
         ordered: []
@@ -62,6 +65,7 @@ template:
           - name: true
           - Sales: true
           - sales: true
+          - passwordExpiresAt: true
           - sid: true
           - organizationId: true
           - updatedAt: true
@@ -167,6 +171,7 @@ template:
         - lastActive
         - salesCTADismissed
         - tutorialCTADismissed
+        - passwordExpiresAt
     - sort: null
     - calculatedColumns: []
     - selectedRow:
@@ -185,4 +190,3 @@ position2:
     height: 8
     width: 6
 createdAt: 2020-12-25T01:14:32.685Z
-updatedAt: 2020-12-25T01:14:40.135Z

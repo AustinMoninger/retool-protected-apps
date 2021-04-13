@@ -44,6 +44,7 @@ template:
           - sid: ''
           - updatedAt: ''
           - platformLevelAuthSteps: ''
+          - onpremStripeSubscriptionId: ''
           - applyPreloadedCSSToHomepage: ''
           - protectedGitHubOrg: ''
           - hostname: ''
@@ -52,6 +53,7 @@ template:
           - preloadedJavaScript: ''
           - trialExpiryDate: ''
           - isCompanyAccount: ''
+          - onpremStripePlanId: ''
           - preloadedCSS: ''
           - onboardingStagesCompleted: ''
           - id: ''
@@ -61,6 +63,8 @@ template:
           - billingCardBrand: ''
           - gitUrl: ''
           - protectedGitHubEnterpriseUrl: ''
+    - columnFrozenAlignments:
+        ordered: []
     - allowMultiRowSelect: false
     - columnFormats:
         ordered: []
@@ -96,6 +100,7 @@ template:
           - sid: true
           - updatedAt: true
           - platformLevelAuthSteps: true
+          - onpremStripeSubscriptionId: true
           - applyPreloadedCSSToHomepage: true
           - protectedGitHubOrg: true
           - hostname: true
@@ -105,6 +110,7 @@ template:
           - trialExpiryDate: true
           - Title: true
           - isCompanyAccount: true
+          - onpremStripePlanId: true
           - preloadedCSS: true
           - onboardingStagesCompleted: true
           - id: true
@@ -221,6 +227,8 @@ template:
         - cacheQueriesPerUser
         - protectedGitHubBaseUrl
         - protectedGitHubEnterpriseUrl
+        - onpremStripeSubscriptionId
+        - onpremStripePlanId
     - sort: null
     - calculatedColumns: []
     - selectedRow:
@@ -240,4 +248,3 @@ position2:
     height: 8
     width: 6
 createdAt: 2020-12-25T01:31:18.001Z
-updatedAt: 2021-02-10T16:27:51.709Z

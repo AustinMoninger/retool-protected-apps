@@ -27,6 +27,8 @@ template:
           - id: ''
           - name: ''
           - deletedAt: ''
+    - columnFrozenAlignments:
+        ordered: []
     - allowMultiRowSelect: false
     - columnFormats:
         ordered: []
@@ -139,4 +141,3 @@ position2:
     width: 6
     tabNum: 4
 createdAt: 2020-12-25T02:35:40.378Z
-updatedAt: 2020-12-25T02:36:04.650Z

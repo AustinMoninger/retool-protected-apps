@@ -27,6 +27,7 @@ template:
           - name: ''
           - sales: ''
           - ssl: ''
+          - displayName: ''
           - organizationId: ''
           - updatedAt: ''
           - databaseUsername: ''
@@ -37,6 +38,8 @@ template:
           - createdAt: ''
           - email: ''
           - options: ''
+    - columnFrozenAlignments:
+        ordered: []
     - allowMultiRowSelect: false
     - columnFormats:
         ordered: []
@@ -55,6 +58,7 @@ template:
           - Sales: true
           - sales: true
           - ssl: true
+          - displayName: true
           - organizationId: true
           - updatedAt: true
           - databaseUsername: true
@@ -149,6 +153,7 @@ template:
         - options
         - environment
         - dynamicallyQueryable
+        - displayName
     - sort: null
     - calculatedColumns: []
     - selectedRow:
@@ -168,4 +173,3 @@ position2:
     height: 8
     width: 6
 createdAt: 2020-12-25T01:14:48.083Z
-updatedAt: 2020-12-25T01:16:58.430Z

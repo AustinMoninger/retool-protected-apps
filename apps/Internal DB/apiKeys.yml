@@ -2,6 +2,7 @@ id: apiKeys
 type: datasource
 subtype: SqlQueryUnified
 resourceName: '[RDS] Retool Internal DB'
+resourceDisplayName: '[RDS] Retool Internal DB'
 template:
   ordered:
     - queryRefreshTime: ''
@@ -76,4 +77,3 @@ template:
     - queryThrottleTime: '750'
     - notificationDuration: ''
 createdAt: 2020-12-25T02:35:50.843Z
-updatedAt: 2020-12-25T02:35:57.044Z
