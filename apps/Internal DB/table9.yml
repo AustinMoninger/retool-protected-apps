@@ -25,9 +25,12 @@ template:
           - organizationId: ''
           - updatedAt: ''
           - universalAccess: ''
+          - archivedAt: ''
           - id: ''
           - createdAt: ''
           - universalResourceAccess: ''
+    - columnFrozenAlignments:
+        ordered: []
     - allowMultiRowSelect: false
     - columnFormats:
         ordered: []
@@ -44,6 +47,7 @@ template:
           - organizationId: true
           - updatedAt: true
           - universalAccess: true
+          - archivedAt: true
           - Title: true
           - id: true
           - createdAt: true
@@ -122,6 +126,7 @@ template:
         - universalResourceAccess
         - universalQueryLibraryAccess
         - userListAccess
+        - archivedAt
     - sort: null
     - calculatedColumns: []
     - selectedRow:
@@ -140,4 +145,3 @@ position2:
     height: 8
     width: 6
 createdAt: 2020-12-25T01:29:10.486Z
-updatedAt: 2020-12-25T01:29:10.930Z

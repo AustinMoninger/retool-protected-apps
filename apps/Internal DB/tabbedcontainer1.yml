@@ -3,14 +3,15 @@ type: widget
 subtype: TabbedContainerWidget
 template:
   ordered:
+    - heightType: fixed
     - spinWhenChildrenAreFetching: true
-    - scroll: false
     - tabNames: '["Main", "Apps", "Flows", "Protected Apps", "Misc."]'
     - selectedTabIndex: 0
     - selectedTab: '"0"'
     - id: tabbedcontainer1
     - showTabBar: true
     - disableAnimation: false
+    - overflowType: hidden
     - disabled: ''
 style:
   ordered: []
@@ -20,4 +21,3 @@ position2:
     height: 30
     width: 12
 createdAt: 2020-12-25T01:12:51.755Z
-updatedAt: 2020-12-25T02:31:44.127Z
