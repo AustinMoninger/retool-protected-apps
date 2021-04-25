@@ -11,6 +11,8 @@ template:
     - value: |+
         ## Internal Retool DB View
 
+    - style:
+        ordered: []
     - renderAsHtml: false
     - backgroundColor: '#0000'
     - textColor: '#312929'

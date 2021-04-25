@@ -97,6 +97,8 @@ template:
     - showRefreshButton: true
     - pageSize: 6
     - useDynamicColumnSettings: false
+    - style:
+        ordered: []
     - actionButtonPosition: left
     - bulkUpdateAction: ''
     - afterCursor: ''
