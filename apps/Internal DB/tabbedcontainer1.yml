@@ -5,6 +5,8 @@ template:
   ordered:
     - heightType: fixed
     - spinWhenChildrenAreFetching: true
+    - style:
+        ordered: []
     - tabNames: '["Main", "Apps", "Flows", "Protected Apps", "Misc."]'
     - selectedTabIndex: 0
     - selectedTab: '"0"'

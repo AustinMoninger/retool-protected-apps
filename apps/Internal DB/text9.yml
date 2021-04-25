@@ -11,6 +11,8 @@ template:
     - value: |+
         ### Folders
 
+    - style:
+        ordered: []
     - renderAsHtml: false
     - backgroundColor: '#0000'
     - textColor: '#312929'
