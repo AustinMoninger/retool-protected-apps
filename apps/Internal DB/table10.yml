@@ -20,6 +20,7 @@ template:
     - columnColors:
         ordered:
           - billingCardholderName: ''
+          - inCanaryGroup: ''
           - twoFactorAuthRequired: ''
           - protectedGitHubRepo: ''
           - cacheQueriesPerUser: ''
@@ -71,10 +72,12 @@ template:
     - columnRestrictedEditing:
         ordered: []
     - showFilterButton: true
+    - showAddRowButton: false
     - nextBeforeCursor: ''
     - columnVisibility:
         ordered:
           - billingCardholderName: true
+          - inCanaryGroup: true
           - twoFactorAuthRequired: true
           - protectedGitHubRepo: true
           - cacheQueriesPerUser: true
@@ -231,6 +234,7 @@ template:
         - protectedGitHubEnterpriseUrl
         - onpremStripeSubscriptionId
         - onpremStripePlanId
+        - inCanaryGroup
     - sort: null
     - calculatedColumns: []
     - selectedRow:

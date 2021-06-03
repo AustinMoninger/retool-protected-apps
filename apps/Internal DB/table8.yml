@@ -55,6 +55,7 @@ template:
     - columnRestrictedEditing:
         ordered: []
     - showFilterButton: true
+    - showAddRowButton: false
     - nextBeforeCursor: ''
     - columnVisibility:
         ordered:

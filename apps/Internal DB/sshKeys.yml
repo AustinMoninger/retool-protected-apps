@@ -2,7 +2,7 @@ id: sshKeys
 type: datasource
 subtype: SqlQueryUnified
 resourceName: '[RDS] Retool Internal DB'
-resourceDisplayName: '[RDS] Retool Internal DB'
+resourceDisplayName: Retool Internal DB
 template:
   ordered:
     - queryRefreshTime: ''
@@ -53,10 +53,12 @@ template:
     - watchedParams: []
     - enableErrorTransformer: false
     - enableBulkUpdates: false
+    - showLatestVersionUpdatedWarning: false
     - timestamp: 0
     - importedQueryDefaults:
         ordered: []
     - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
     - bulkUpdatePrimaryKey: ''
     - runWhenPageLoads: false
     - transformer: >-
@@ -75,5 +77,6 @@ template:
     - shouldEnableBatchQuerying: false
     - doNotThrowOnNoOp: false
     - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
     - notificationDuration: ''
 createdAt: 2020-12-25T02:31:20.590Z
