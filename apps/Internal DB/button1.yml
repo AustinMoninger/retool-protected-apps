@@ -4,7 +4,7 @@ subtype: ButtonWidget
 template:
   ordered:
     - valueToCopy: ''
-    - color: '#3c92dc'
+    - color: '#478b60'
     - internalUrlHashParams: ''
     - exportFileType: csv
     - buttonType: action
@@ -12,6 +12,9 @@ template:
     - url: ''
     - newWindow: false
     - value: Submit
+    - style:
+        ordered:
+          - accent-background: '#478b60'
     - exportQuery: ''
     - action: ''
     - internalUrlQuery: ''
