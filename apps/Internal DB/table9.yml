@@ -21,6 +21,7 @@ template:
         ordered:
           - universalQueryLibraryAccess: ''
           - name: ''
+          - auditLogAccess: ''
           - userListAccess: ''
           - organizationId: ''
           - updatedAt: ''
@@ -44,6 +45,7 @@ template:
           - universalQueryLibraryAccess: true
           - name: true
           - Sales: true
+          - auditLogAccess: true
           - userListAccess: true
           - organizationId: true
           - updatedAt: true
@@ -130,6 +132,7 @@ template:
         - universalQueryLibraryAccess
         - userListAccess
         - archivedAt
+        - auditLogAccess
     - sort: null
     - calculatedColumns: []
     - selectedRow:
